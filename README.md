@@ -30,9 +30,9 @@ User should be :
 5. As a fan / new visitor, I would like to know if their are upcoming shows in my area
  
 ### Wireframe Mock ups
-* [Home](home.png)
-* [Meet the Band](meettheband.png)
-* [Upcoming Events](upcomingevents.png)
+* [Home](https://github.com/SlicedAvocado7/Scrantonicity/blob/master/wireframes/home.png)
+* [Meet the Band](https://github.com/SlicedAvocado7/Scrantonicity/blob/master/wireframes/meettheband.png)
+* [Upcoming Events](https://github.com/SlicedAvocado7/Scrantonicity/blob/master/wireframes/upcomingevents.png)
  
 ### Features
  
