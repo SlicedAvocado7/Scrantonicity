@@ -1,45 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Srantonicity
+MS1 Project
+My first ever website project!
+This is the first Milestone Project for Code Institue's Fullstack Software Development course.
+This site is based on the fictional band Scratonicity from The Office (US). The user / fan can explore upcoming live shows, tour dates and video clips of the band, as well as getting to each band member.
+User can keep up with the lasted news from the band by signing up to the monthly newsletter.
+Although a fictional band, this will be enjoyed by old and new fans for the show.
+Research is based on content I found online through fandom pages, Youtube, etc.
+### UX
+This website is aimed to be visited by fans of music and cover bands. Specifically, those who are big fans of The Office series. The site gives details for the band's formation and current and past members.
+User should be :
+*  Between the ages of 20 and 65 years old.
+*  Fans of both cover bands and the series.
+*  Fans of comedy
+*  Wanting updates of the band
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+##### Visitors to the website are searching for:
+* Episodes featuring the band.
+* How the band came together.
+* History of Scrantonicity.
+* The website is:
+ * Easy to navigate.
+ * Not many fan sites for this fictional band
+ 
+##### User stories
+1. As a fan / new visitor, I want to easily navigate the site, so I can find information on the band.
+2. As a fan / new visitor, I want the latest updates
+3. As a new visitor, I would like to know more about the band's History
+4. As a fan / new visitor , I would like to know which episodes feature Scrantonicity
+5. As a fan / new visitor, I would like to know if their are upcoming shows in my area
+ 
+### Wireframe Mock ups
+* [Home](home.png)
+* [Meet the Band](meettheband.png)
+* [Upcoming Events](upcomingevents.png)
+ 
+### Features
+ 
+### Technologies Used
+HMTL
+CSS
+ 
+### Frameworks, Libraries & Programs Used
+ 
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+   - Bootstrap was used to help with styling of my website.
+ 
+2. [Font Awesome:](https://fontawesome.com/)
+   - Font Awesome was used on all pages of website to add icons for aesthetic and UX purposes.
+ 
+### Testing
+ 
+### Deployment
+ 
+### Credits
+ 
+### Content
+ 
+### Media
+ 
+### Acknowledgements
