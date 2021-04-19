@@ -52,6 +52,11 @@ CSS
    -  Hover is used on nav bar pages and social media icons on the footer to add a nice transiton when hoving over them. 
  
 ### Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used on each page to ensure they functioned properly with no errors.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
  
 ### Deployment
  
