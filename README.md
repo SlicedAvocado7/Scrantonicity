@@ -43,13 +43,13 @@ CSS
 ### Frameworks, Libraries & Programs Used
  
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-   - Bootstrap was used to help with styling of my website.
+   - Bootstrap was used to help with styling of the navbar and website.
  
 2. [Font Awesome:](https://fontawesome.com/)
    - Font Awesome was used on all pages of website to add icons for aesthetic and UX purposes.
 
 3. [Hover:CSS:](https://ianlunn.github.io/Hover/)
-   -  Hover is used on nav bar pages and social media icons on the footer to add a nice transiton when hoving over them. 
+   -  Hover is used on nav bar pages and social media icons on the footer to add a some transiton when hoving over them. 
  
 ### Testing
 
