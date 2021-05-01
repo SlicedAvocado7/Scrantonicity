@@ -3,6 +3,7 @@ MS1 Project
 My first ever website project!
 This is the first Milestone Project for Code Institue's Fullstack Software Development course.
 This site is based on the fictional band Scratonicity from The Office (US). The user / fan can explore upcoming live shows, tour dates and video clips of the band, as well as getting to each band member.
+
 User can keep up with the lasted news from the band by signing up to the monthly newsletter.
 Although a fictional band, this will be enjoyed by old and new fans for the show.
 Research is based on content I found online through fandom pages, Youtube, etc.
