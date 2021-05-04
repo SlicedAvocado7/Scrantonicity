@@ -52,7 +52,7 @@ CSS
 3. [Hover:CSS:](https://ianlunn.github.io/Hover/)
    -  Hover is used on nav bar pages and social media icons on the footer to add a some transiton when hoving over them. 
 
-4. [Jquery:](https://code.jquery.com/jquery-3.3.1.js)
+4. [Jquery:](https://jquery.com/jquery-3.3.1.js)
    -  Is use for my navbar, this allows it to turn in to a hamburger menu when sizing for smaller screens.
 
 ### Testing
