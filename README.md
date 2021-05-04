@@ -55,7 +55,7 @@ CSS
 4. [Jquery:](https://code.jquery.com/jquery-3.3.1.js)
    -  Used to for navbar responsiveness.
 
-5. [Pooper.js:](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js)
+5. [Popper.js:](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js)
    -  Used to for navbar responsiveness when on a smaller screen. Help with menu dropdown (smaller screens)
 
 ### Testing
