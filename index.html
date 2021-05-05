@@ -19,47 +19,72 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Scrantonicity</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Scrantonicity</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="index.html">Home <span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="meettheband.html">Meet the Band</a>
-                    <a class="nav-item nav-link" href="upcomingevents.html">Upcoming Events</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="meettheband.html" class="nav-link">Meet the Band</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="upcomingevents.html" class="nav-link">Upcoming Events</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+
 
     <br>
 
 
+    <main>
+        <article>
 
-    <section>
-        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus
-            perspiciatis
-            cum vitae, modi hic?</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.</p>
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur dolor blanditiis quae illum
+                corporis minima voluptas id maiores ducimus inventore hic quasi sequi quidem nobis tempora accusantium
+                sapiente nam amet voluptatum perferendis aliquid quibusdam, sed tenetur?</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </article>
 
-    </section>
+        <article>
 
-    <footer id="footer" class="bg-dark">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur dolor blanditiis quae illum
+                corporis minima voluptas id maiores ducimus inventore hic quasi sequi quidem nobis tempora accusantium
+                sapiente nam amet voluptatum perferendis aliquid quibusdam, sed tenetur?</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </article>
+
+
+    </main>
+
+    <footer id="main-footer" class="text-center p-4">
+        <ul class="social-media">
+            <li><a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
         <div class="container">
-            <ul class="social-media">
-                <li><a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
-                </li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-            <p>Copyright &copy;2021</p>
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy;
+                        <span id="year"></span></p>
+                </div>
+            </div>
+        </div>
         </div>
     </footer>
 
