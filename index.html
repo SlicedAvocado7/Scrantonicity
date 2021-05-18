@@ -1,91 +1,103 @@
-<<!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="Scranton's Only Police Cover Band">
-        <meta name="keywords" content="music promoter, promoter, bands, artists, gigs, events, Irish">
-        <link rel="icon" type="image/jpg" sizes="32x32" href="assets/images/logoband.jpg">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/images">
-        <title>Scrantonicity| Official Site</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Scranton's Only Police Cover Band">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="assets/images/logoband.jpg">
 
-    <!-- Scrollspy  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <body data-spy="scroll" data-target="#myNavbar" data-offset="0">
-        <!-- NAVBAR  -->
-        <header>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
-                href="#"><img src="assets/images/logoband.jpg" height="45" alt="Scrantonicity Band Logo"></a>
-                <div class="container">
-                    <a href="index.html" class="navbar-brand" text="align-left">Scrantonicity</a>
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="#home" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#meet the band" class="nav-link">Meet the Band</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#upcomingevents" class="nav-link">Upcoming Events</a>
-                            </li>
-                        </ul>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Scrantonicity | Official Site </title>
+</head>
+
+
+<body>
+    <!-- Bootstrap Navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="assets/images/logoband.jpg" height="45"
+                    alt="Scrantonicity Band Logo"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#bandmembers" class="nav-link">Meet the Band</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#events" class="nav-link">Upcoming Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#join" class="nav-link">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Bootstrap Navbar-->
+    <br>
+
+    <!-- Home / Carrousel Section-->
+
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/robertcalifornia.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
-            </nav>
-
-        </header>
-        <!-- END OF NAVBAR -->
-
-        <!-- Band Section -->
-
-        <main>
-            <section id="meettheband" class="jumbotron text-center">
-                <div class="container">
-                    <h2>Scranton's only Police Cover Band.
-                    </h2>
-                    <p class="lead">Creating unforgettable memories.</p>
-                    <p> <img src="assets/images/scranton.jpeg" class="img-fluid mx-auto" height="520" width="620"
-                            alt="The Office">
+                <div class="carousel-item">
+                    <img src="assets/images/theband.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
                 </div>
-
-                <div class="container">
-                    <p>Scrantonicity is the best cover band in Scranton, PA. They won several battle
-                        of the bands 6 years in
-                        a row. They are known throughtout the North East. The band was founded by Kevin Malone(drums &
-                        vocals). Later he was joined by Darryl(vocals & keyboard) and Andy(vocals & strings). When these
-                        three are not jamming, they help run Dunder Mifflin Paper Company.
-
-                    </p>
+                <div class="carousel-item">
+                    <img src="assets/images/kevin.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-
-            </section>
-
-
-        </main>
-
-
-
-
-
-
-
-
-
-
-
+    </main>
 
 
 
@@ -100,32 +112,23 @@
 
 
 
-        <!-- START OF FOOTER -->
-        <div class="container-fluid">
-            <div class="footer-icons">
-                <div class="row text-center">
-
-                    <!-- END OF FOOTER -->
 
 
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
 
-                    <!-- Start of Scripts-->
-                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                        crossorigin="anonymous">
-                    </script>
-                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-                        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-                        crossorigin="anonymous">
-                    </script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-                        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-                        crossorigin="anonymous">
-                    </script>
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
 
-
-
-                    <!-- End of Scripts-->
-    </body>
-
-    </html>
+</html>
